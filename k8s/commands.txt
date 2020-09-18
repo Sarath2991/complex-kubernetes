@@ -1,0 +1,9 @@
+kubectl apply -f <foldername>
+kubectl apply -f <filename>
+kubectl get pods
+kubectl get deployments
+kubectl get services
+kubectl get pv
+kubectl get pvc
+kubectl describe <kubeid>
+kubectl create secret generic pgpassword --from-literal PGPASSWORD=<password>
